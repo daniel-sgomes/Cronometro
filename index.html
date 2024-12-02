@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronômetro</title>
+  <style>
+    body {
+      background-color: aquamarine;
+      text-align: center;
+    }
+
+    button {
+      width: 100px;
+      height: 70px;
+    }
+
+    #btp {
+      background: green;
+      color: white;
+    }
+
+    #bts {
+      background: yellow;
+    }
+
+    #btt {
+      background: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Cronômetro</h1>
+
+  <h2 id="tempo">0</h2>
+  <button onclick="iniciarC()" id="btp">Iniciar Contagem</button>
+  <button onclick="pausarC()" id="bts">Pausar Contagem</button>
+  <button onclick="pararC()" id="btt">Parar/Reiniciar Contagem</button>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
